@@ -1,0 +1,11 @@
+instakamos typescript en forma global (-g)
+npm i -g typescript
+tsc --version
+inicializamos el proyecto
+npm init -y
+Crea el archivo package.json
+
+Ahora creamo el archivo de configuracion del proyecto typescript
+tsc --init
+Crea el archivo tsconfig.json
+
