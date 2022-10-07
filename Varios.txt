@@ -9,3 +9,18 @@ Ahora creamo el archivo de configuracion del proyecto typescript
 tsc --init
 Crea el archivo tsconfig.json
 
+Instalamos TSlint
+npm i tslint --save-dev
+
+Luego volvemos a instalar typescript local
+npm i typescript  --save-dev      
+
+Creammos el archivo de configuracion de TSlint
+ ./node_modules/.bin/tslint --init
+ Crea el archivo tslint.json y lo editamos, agregamos la regla (para que no nos de error de consola)
+
+    "rules": {
+        "no-console":false
+    },
+
+    
