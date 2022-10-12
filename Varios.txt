@@ -23,4 +23,6 @@ Creammos el archivo de configuracion de TSlint
         "no-console":false
     },
 
+    Instalo las dependencia de Express y Node para typescript
     
+    npm install --save-dev @types/node @types/express
